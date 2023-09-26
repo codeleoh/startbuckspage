@@ -1,42 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
 
-body {
+body { /*Organizando a formatação do corpo do site e definindo a fonte principal*/
     font-family: 'Open-Sans', sans-serif;
     margin:0px;
+    box-sizing:border-box;
 }
 
-header .line {
+header .line { /*Aplicando cor e altura para a linha superior no site*/
     background-color:#117050;
     height:10px;
 }
 
-.container {
+.container { /*Medida do espaço do conteúdo do site*/
     width:1140px;
     margin:auto;
 }
 
-.header--area {
+.header--area { /*Conteúdos do cabeçalho espaçados até a extremidade na horizontal e na vertical centralizados*/
     display:flex;
     justify-content:space-between;
     align-items:center;
     height:100px;
 }
 
-.header--left img {
+.header--left img { /*Tamanho da logo*/
     height:64px;
     width:64px;
 }
 
-.header--right {
+.header--right { /*Conteúdo flexivel em linha e centralizado na vertical*/
     display:flex;
     align-items:center;
 }
 
-.header--search form {
+.header--search form { /*Conteúdo da área da pesquisa flexível*/
     display:flex;
 }
 
-.header--search input {
+.header--search input { /*Definindo tamanho da fonte, espaçamento entre os elementos e borda*/
     font-size:16px;
     padding:10px 15px;
     border:1px solid #999;
@@ -45,24 +46,24 @@ header .line {
     max-width:250px;
 }
 
-.header--search button {
+.header--search button { /*Definindo as caracteristicas do botão e colocando ele dentro do input search*/
     border:0;
     background:transparent;
     margin-left:-30px;
     cursor:pointer;
 }
 
-.header--search button img {
+.header--search button img { /*Tamanho da imagem da lupa*/
     width:16px;
     height:16px;
 }
 
-.header--menu {
+.header--menu { /*Tamanho da área do menu*/
     margin-left:50px;
     cursor:pointer;
 }
 
-.header--menu img {
+.header--menu img { /*Tamanho da imagem do menu*/
     width:24px;
     height:24px;
 }
