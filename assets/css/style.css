@@ -22,6 +22,20 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     height:10px;
 }
 
+.botton {
+    display:inline-block;
+    border:2px solid #454545;
+    padding:10px 30px;
+    border-radius:3px;
+    color:#454545;
+    text-decoration:none;
+}
+
+.botton:hover {
+    background-color:#454545;
+    color:#fff;
+}
+
 .header--area { /*Conteúdos do cabeçalho espaçados até a extremidade na horizontal e na vertical centralizados*/
     display:flex;
     justify-content:space-between;
@@ -74,7 +88,7 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     height:24px;
 }
 
-.banner {
+.banner { /*Imagem de fundo, seu tamanho e espaçamento*/
     background-image: url('../images/bg.jpg');
     background-position:center;
     background-size:cover;
@@ -82,7 +96,7 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     padding-bottom:90px;
 }
 
-.banner h1 {
+.banner h1 { /*Font, tamanho e peso do texto. Espaçamento entre as palavras, espaçamento entre conteúdo*/
     font-size:96px;
     font-family:'Oswald', sans-serif;
     font-weight:bold;
@@ -91,11 +105,11 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     margin-bottom:40px;
 }
 
-.banner--images {
+.banner--images { /*Espamento entre as imagens e o conteúdo de cima*/
     margin-top:60px;
 }
 
-.banner--images img {
+.banner--images img { /*Tamnho, larguma, borda e arredondamento das imagens. Espaçamento entre uma imagem e outra*/
     height:160px;
     width:160px;
     border:6px solid #117050;
@@ -103,31 +117,41 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     margin-right:40px;
 }
 
-.area1 {
+.area1 { /*Criando grid. Três colunas*/
     display:grid;
     grid-template-columns:repeat(2, 1fr);
 }
 
-.area1--content {
+.area1--content { /*Espaçamento entre os conteúdos*/
     padding:80px;
 }
 
-.area1--content h2{
+.area1--quote { /*Espaçamento entre o texto e o conteúdo de baixo*/
+    margin-bottom:30px;
+}
+
+.area1--text { /*Espaçamento entre o espaçamento do texto com o conteúdo de baixo. E o espaçamento entre as linhas do texto*/
+    margin-bottom:50px;
+    line-height:25px;
+}
+
+.area1--content h2{ /*Tipo, tamanho e peso da fonte. Espaçamento entre os conteúdos e entre as linhas do texto */
     font-size:35px;
     font-family:'Oswald', sans-serif;
     font-weight:bold;
     margin:0;
     line-height:40px;
+    margin:20px 0;
 }
 
-.area1--img1 {
+.area1--img1 { /*Imagem, altura e posicionamento da imagem*/
     background-image:url(../images/f2.jpg);
     background-size:cover;
     background-position:center;
     height:350px;
 }
 
-.area1--img2 {
+.area1--img2 { /*Imagem, altura e posicionamento da imagem. Local preenchido no grid*/
     grid-column:2 / 3;
     grid-row:1 / 3;
     background-image:url(../images/f1.jpg);
