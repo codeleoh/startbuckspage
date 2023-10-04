@@ -230,3 +230,32 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     background-size:cover;
     background-position:center;
 }
+
+.area4 { /*Criando grid, duas colunas e cor do fundo*/
+    display:grid;
+    grid-template-columns:450px 1fr;
+    background-color:#e8e9ee;
+}
+
+.area4--content { /*Espaçamento entre os conteúdos*/
+    padding:150px 80px;
+}
+
+.area4--content h2{ /*Tipo, tamanho e peso da fonte. Espaçamento entre os conteúdos e entre as linhas do texto */
+    font-size:35px;
+    font-family:'Oswald', sans-serif;
+    font-weight:bold;
+    margin:0;
+    line-height:40px;
+    margin:20px 0;
+}
+
+.area4--text { /*Espaçamento entre o text e conteúdo, assim como espaçamento entre as linhas do texto*/
+    margin-bottom:50px;
+    line-height:25px;
+}
+
+.area4--img1 { /*Imagem de fundo e posicionamento do mesmo*/
+    background-image:url(../images/bg3.jpg);
+    background-position:left;
+}
