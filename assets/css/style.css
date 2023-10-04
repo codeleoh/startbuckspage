@@ -158,3 +158,75 @@ header .line { /*Aplicando cor e altura para a linha superior no site*/
     background-size:cover;
     background-position:center;
 }
+
+.area2 { /*Criando grid. Três colunas*/
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.area2--content { /*Espaçamento entre os conteúdos*/
+    padding:80px;
+}
+
+.area2--text { /*Espaçamento entre o espaçamento do texto com o conteúdo de baixo. E o espaçamento entre as linhas do texto*/
+    margin-bottom:50px;
+    line-height:25px;
+}
+
+.area2--content h2{ /*Tipo, tamanho e peso da fonte. Espaçamento entre os conteúdos e entre as linhas do texto */
+    font-size:35px;
+    font-family:'Oswald', sans-serif;
+    font-weight:bold;
+    margin:0;
+    line-height:40px;
+    margin:20px 0;
+}
+
+.area2--img1 { /*Imagem, altura e posicionamento da imagem*/
+    background-image:url(../images/f4.jpg);
+    background-size:cover;
+    background-position:center;
+    height:450px;
+}
+
+.area2--img2 { /*Imagem, altura e posicionamento da imagem. Local preenchido no grid*/
+    grid-column:1 / 2;
+    grid-row:1 / 3;
+    background-image:url(../images/f3.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+/* Terceira Area */
+
+.area3 { /*Criando grid. Três colunas*/
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.area3--content { /*Espaçamento entre os conteúdos*/
+    padding:210px 80px;
+    background-image:url(../images/bg2.jpg);
+    background-size:cover;
+    background-position:left;
+}
+
+.area3--text { /*Espaçamento entre o espaçamento do texto com o conteúdo de baixo. E o espaçamento entre as linhas do texto*/
+    margin-bottom:50px;
+    line-height:25px;
+}
+
+.area3--content h2{ /*Tipo, tamanho e peso da fonte. Espaçamento entre os conteúdos e entre as linhas do texto */
+    font-size:35px;
+    font-family:'Oswald', sans-serif;
+    font-weight:bold;
+    margin:0;
+    line-height:40px;
+    margin:20px 0;
+}
+
+.area3--img1 { /*Imagem, altura e posicionamento da imagem*/
+    background-image:url(../images/f5.jpg);
+    background-size:cover;
+    background-position:center;
+}
